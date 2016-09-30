@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context="mx.carpediemsoft.lasmascotas.Contacto"
+    android:orientation="vertical">
+
+
+
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idNombre"
+            android:textSize="@dimen/tamaño"
+            android:hint="@string/edittext"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/idEmail"
+            android:hint="@string/email"
+            android:layout_below="@+id/idTel"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/tamaño"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="@string/cescripcion"
+            android:ems="10"
+            android:id="@+id/iddescripcion"
+            android:layout_below="@+id/idEmail"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/tamaño"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enviar"
+        android:id="@+id/idBotonSiguiente"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:onClick="Siguiente"
+        android:theme="@style/MiBotonRaised"
+        android:textColor="@color/colorBlanco"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MiCardToolbar" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorBlanco</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CardTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="MiBotonRaised" parent="Theme.AppCompat.Light">
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorTap</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+</resources>

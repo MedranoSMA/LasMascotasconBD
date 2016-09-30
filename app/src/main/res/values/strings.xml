@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Las Mascotas</string>
+
+    <string name="nombre_mascota">mascota</string>
+    <string name="likes">likes</string>
+    <string name="boton">LIKE</string>
+    <string name="amarillo">amarillo</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="edittext">Nombre Completo</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="cescripcion">Mensaje</string>
+    <string name="enviar">Enviar Comentario</string>
+
+</resources>

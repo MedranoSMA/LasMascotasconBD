@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/huella"
+        app:showAsAction="always"
+        android:icon="@drawable/foot"
+        >
+    </item>
+    <item
+        android:id="@+id/titulo_app"
+        android:title="                                                                       "
+        app:showAsAction="always"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/estrella"
+        app:showAsAction="always"
+        android:icon="@drawable/star"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100"
+        >
+    </item>
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/menu_acerca"
+        android:orderInCategory="101"
+        >
+    </item>
+
+
+</menu>
